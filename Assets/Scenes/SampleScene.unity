@@ -1181,6 +1181,7 @@ GameObject:
   - component: {fileID: 2137070872}
   - component: {fileID: 2137070873}
   - component: {fileID: 2137070874}
+  - component: {fileID: 2137070875}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -1419,13 +1420,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2137070862}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a763c40a45c7411459fb4533e2225e08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state1Recorder: {fileID: 2137070872}
   state2Recorder: {fileID: 2137070873}
+--- !u!114 &2137070875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137070862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81ba456d2a8b0604eaa9fb4168e0a20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  behaviorParameters: {fileID: 2137070871}
+  onnxModel1: {fileID: 5022602860645237092, guid: a030454967702884da32be067c7cffb1, type: 3}
+  onnxModel2: {fileID: 5022602860645237092, guid: 4364ad534c46b214681b8e55edd8f339, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
